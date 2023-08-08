@@ -54,7 +54,7 @@ async def on_message(message):
 #points out the error of commonly misspelled words in the chat
 @bot.listen('on_message')
 async def listen(message):
-    words = [ 'u', 'thier', 'hie','pastim','vacuum', 'alot', 'beleive'  ]
+    words = [ ' u ', ' thier ', ' hie ',' pastim ',' vacuum ', ' alo t', ' beleive '  ]
     
     msg = message.content
 
